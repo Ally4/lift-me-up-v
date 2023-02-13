@@ -1,0 +1,19 @@
+{
+  "name": "lift-me-up-v",
+  "version": "1.0.0",
+  "description": "the front-end of lift me up in react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ally4/lift-me-up-v.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ally4/lift-me-up-v/issues"
+  },
+  "homepage": "https://github.com/Ally4/lift-me-up-v#readme"
+}
