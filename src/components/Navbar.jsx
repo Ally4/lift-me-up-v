@@ -1,11 +1,11 @@
 import { Component } from "react";
 import "./NavbarStyle.css";
 
-class Navbar extends Component() {
+class Navbar extends Component {
 
     state = { clicked: false };
     handleClick = () => {
-        this.setState({ clicked: !this.state  });
+        this.setState({ clicked: !this.state.clicked  });
     }
 
 
@@ -35,8 +35,8 @@ class Navbar extends Component() {
                     </li>
                 </ul>
             </div>
-            <div id="bar" onClick={this.handleClick}>
-                <i className={this.state.clicked ? 'fa fas-times' : 'fa fas-bars'}></i>
+            <div id="mobile" onClick={this.handleClick}>
+                <i id="bar" className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
         </nav>
         </>

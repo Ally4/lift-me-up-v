@@ -4,8 +4,7 @@ function Home() {
   return (
     <>
       <div className="home">
-        <h1>React Navbar</h1>
-        <h3>Difficulty Level: 0;</h3>
+        <h1>Brigdeton: get your good</h1>
       </div>
     </>
   );
